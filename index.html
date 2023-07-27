@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Hangman</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Cute+Font&family=Didact+Gothic&family=Moirai+One&family=Quicksand:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <div class="main">
+        <h1>hangman</h1>
+      </div>
+      <div class="gameArea">
+        <ul class="wordDisplay">
+          <!-- We will need to generate the word placeholder in .js  -->
+        </ul>
+        <h4 class="incorrectGuess">Incorrect Guesses: <b><!--We will need to generate the number of guesses x/6 --></b></h4>
+      </div>
+      <div class="keyboard" id="keyboard">
+      </div>
+    </section>
+
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>

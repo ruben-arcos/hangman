@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Didact Gothic", sans-serif;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% ); */
+    /* background-image: linear-gradient(to right, #5a3f37, #2c7744); */
+    background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  }
+  
+  .container {
+      width: 850px;
+      background: rgb(243, 240, 233);
+      display: flex;
+      flex-direction: column;
+      gap: 70px;
+      align-items: center;
+      padding: 60px 40px;
+      border-radius: 10px;
+  }
+  
+  h1 {
+      font-size: 4.5rem;
+      font-family: "Comfortaa", cursive;
+      font-weight: 700;
+      text-align: center;
+    }
+  
+    .wordDisplay {
+      display: flex;
+      gap: 10px;
+      list-style: none;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .wordDisplay .letter {
+      width: 28px;
+      font-size: 2rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      /* margin-bottom: 0px; */
+      border-bottom: 3px solid #000;
+      text-align: center;
+  }
+  
+  .wordDisplay .letter.guessed {
+      border-color: transparent;
+  }
+  
+  .incorrectGuess {
+      margin-top: 5px;
+  }
+  
+  .gameArea .incorrectGuess b {
+      font-weight: 600;
+      color: red;
+  }
+  
+  .keyboard {
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  .keyboard button {
+      color: #fff;
+      font-size: 1rem;
+      background: #5E63BA;
+      width: calc(100% / 9 - 5px);
+      border-radius: 4px;
+      cursor: pointer;
+      outline: none;
+      padding: 7px;
+      border: none;
+  }
+  
+  .keyboard button:hover {
+      background: #8286C9;
+  }
+  
+  
+  
+  
+  
+  /*  
+  
+  .gameArea {
+      background: rgb(243, 240, 233);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .letters {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30px;
+    height: 30px;
+  }
+  
+  #clearBoardBtn {
+    text-transform: uppercase;
+  }
+  
+  */
+  

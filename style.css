@@ -41,6 +41,8 @@
       align-items: center;
       justify-content: center;
   }
+
+ 
   
   .wordDisplay .letter {
       width: 28px;
@@ -83,6 +85,11 @@
       padding: 7px;
       border: none;
   }
+
+  .keyboard button[disabled] {
+    opacity: 0.6;
+    pointer-events: none;
+  }
   
   .keyboard button:hover {
       background: #8286C9;
@@ -99,20 +106,22 @@
   }
   
   
-  
-  
-  
-  
-  
-  
-  
-  .letters {
+
+   .letter {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 30px;
     height: 30px;
   }
+  
+  
+  
+  
+  
+  
+  
+ 
   
   #clearBoardBtn {
     text-transform: uppercase;
